@@ -1,0 +1,9 @@
+pandas
+openpyxl
+flask
+urllib3
+PyPDF2  # If using PDF parser
+python-dotenv  # To handle API keys
+flask
+flask_cors
+pandas

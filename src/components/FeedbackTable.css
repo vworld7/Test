@@ -1,0 +1,75 @@
+.feedback-container {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+th {
+  background-color: #eee;
+}
+
+.center {
+  text-align: center;
+}
+
+.thumb {
+  cursor: pointer;
+  font-size: 1.3em;
+  margin: 0 5px;
+}
+
+.selected-up {
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.selected-down {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.buttons {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.submit-btn, .cancel-btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: bold;
+}
